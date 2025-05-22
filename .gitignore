@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.env
+.pytest_cache/
+
+# Flask
+instance/
+.webassets-cache
+
+# Vue/Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.npm/
+.eslintcache
+.env.local
+.env.*.local
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+logs/
+
+# Database
+*.sqlite3
+*.db
+
+# Distribution / packaging
+*.tar.gz
+*.tgz
+*.zip
+
+# Client build directories
+/client/dist/
+/client/node_modules/
+
+# Server specific
+/server/venv/
+/server/__pycache__/ 
